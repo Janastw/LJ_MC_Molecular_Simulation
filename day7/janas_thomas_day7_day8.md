@@ -1,0 +1,6 @@
+# Reflection by TJ
+
+In this assignment we had to alter the code from Python into C++, and this had very big changes to make. We ended up going through each of the functions and changed them 1 by 1 to be in C++ and then tested that those specific functions worked with our test cases. This took a little bit of time, but I think after working systematically here, it was well worth it.  We did end up running into an issue where we were getting a slightly miscalculated value for our tail correction, which just needed a `1.0 / 3.0` instead of a `1 / 3`. We also ran into another issue with our simulation and it gave us a memory error. Later learned we mixed up `num_steps` and `num_particles`.
+
+
+Looking back at it, C++ felt much more complicated, and it helps me appreciate that we did the project in Python first. I'm sure it would've taken much longer to go from C++ to Python because I would've spent so much more time getting caught up in the mistakes I would make in C++. It was interesting to see the similarities and differences between the two languages here, and I'm glad we finally got the C++ simulation to work.
